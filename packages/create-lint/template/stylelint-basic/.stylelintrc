@@ -1,0 +1,3 @@
+{
+  "extends": "@befhub/stylelint-config-basic"
+}
