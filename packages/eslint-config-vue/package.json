@@ -1,0 +1,21 @@
+{
+  "name": "@befhub/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "eslint vue",
+  "author": "haiweilian <haiweilian@foxmail.com>",
+  "homepage": "https://github.com/bfehub/lint",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "prettier": ">=2.0.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@befhub/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-vue": "^8.2.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "html",
+    "xml",
+    "vue",
+    "svelte",
+    "php"
+  ]
+}

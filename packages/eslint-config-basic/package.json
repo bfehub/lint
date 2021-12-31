@@ -1,0 +1,24 @@
+{
+  "name": "@befhub/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "eslint basic",
+  "author": "haiweilian <haiweilian@foxmail.com>",
+  "homepage": "https://github.com/bfehub/lint",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "prettier": ">=2.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}

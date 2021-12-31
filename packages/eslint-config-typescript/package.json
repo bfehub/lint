@@ -1,0 +1,22 @@
+{
+  "name": "@befhub/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "eslint typescript",
+  "author": "haiweilian <haiweilian@foxmail.com>",
+  "homepage": "https://github.com/bfehub/lint",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "prettier": ">=2.0.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@befhub/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1"
+  }
+}

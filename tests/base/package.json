@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@befhub/eslint-config-basic": "workspace:*",
+    "@befhub/stylelint-config-basic": "workspace:*",
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.2.0"
+  }
+}
