@@ -4,13 +4,13 @@ module.exports = (options) => {
       'eslint',
       'prettier',
       'typescript',
-      '@befhub/eslint-config-typescript',
+      '@bfehub/eslint-config-typescript',
     ],
     configFile: [
       'base/.prettierrc',
       'base/.prettierignore',
       'base/.eslintignore',
-      'eslint-basic/.eslintrc',
+      'eslint-typescript/.eslintrc',
     ],
   }
 }

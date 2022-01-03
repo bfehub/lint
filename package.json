@@ -8,8 +8,9 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@befhub/eslint-config-basic": "workspace:*",
-    "@befhub/stylelint-config-basic": "workspace:*",
+    "@bfehub/eslint-config-basic": "workspace:*",
+    "@bfehub/stylelint-config-basic": "workspace:*",
+    "@changesets/cli": "^2.19.0",
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "stylelint": "^14.2.0",

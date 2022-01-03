@@ -1,4 +1,4 @@
-# @befhub/eslint-config-typescript
+# @bfehub/eslint-config-typescript
 
 ## Usage
 

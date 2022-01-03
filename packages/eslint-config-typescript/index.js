@@ -3,7 +3,7 @@ module.exports = {
   extends: [
     // https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin
     'plugin:@typescript-eslint/recommended',
-    '@befhub/eslint-config-basic',
+    '@bfehub/eslint-config-basic',
   ],
   rules: {
     // override rules

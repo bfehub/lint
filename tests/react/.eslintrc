@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": "@bfehub/eslint-config-react"
+}

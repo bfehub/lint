@@ -1,3 +1,3 @@
 {
-  "extends": "@befhub/stylelint-config-basic"
+  "extends": "@bfehub/stylelint-config-basic"
 }

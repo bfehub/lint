@@ -22,6 +22,7 @@ async function main() {
         { title: 'basic', value: ['eslint-basic'] },
         { title: 'typescript', value: ['eslint-typescript'] },
         { title: 'vue', value: ['eslint-vue'] },
+        { title: 'react', value: ['eslint-react'] },
       ],
     },
     {

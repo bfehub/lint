@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@befhub/eslint-config-typescript"
+  "extends": "@bfehub/eslint-config-typescript"
 }

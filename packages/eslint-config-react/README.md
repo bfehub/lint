@@ -1,4 +1,4 @@
-# @bfehub/eslint-config-vue
+# @bfehub/eslint-config-react
 
 ## Usage
 

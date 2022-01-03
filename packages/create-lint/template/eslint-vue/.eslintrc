@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@befhub/eslint-config-vue"
+  "extends": "@bfehub/eslint-config-vue"
 }

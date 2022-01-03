@@ -1,7 +1,7 @@
 {
-  "name": "@bfehub/eslint-config-vue",
+  "name": "@bfehub/eslint-config-react",
   "version": "0.0.0",
-  "description": "eslint vue",
+  "description": "eslint react",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@bfehub/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^8.2.0"
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }

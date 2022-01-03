@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": "@befhub/eslint-config-basic"
+  "extends": "@bfehub/eslint-config-basic"
 }

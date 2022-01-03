@@ -1,4 +1,4 @@
-# @befhub/create-lint
+# @bfehub/create-lint
 
 ## Usage
 

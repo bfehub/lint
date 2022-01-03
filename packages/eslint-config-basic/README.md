@@ -1,4 +1,4 @@
-# @befhub/eslint-config-basic
+# @bfehub/eslint-config-basic
 
 ## Usage
 

@@ -10,8 +10,8 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@befhub/eslint-config-vue": "workspace:*",
-    "@befhub/stylelint-config-basic": "workspace:*",
+    "@bfehub/eslint-config-vue": "workspace:*",
+    "@bfehub/stylelint-config-basic": "workspace:*",
     "@vitejs/plugin-vue": "^2.0.0",
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",

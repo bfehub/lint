@@ -1,11 +1,11 @@
 module.exports = (options) => {
   return {
-    pkg: ['eslint', 'prettier', '@bfehub/eslint-config-basic'],
+    pkg: ['eslint', 'prettier', 'typescript', '@bfehub/eslint-config-react'],
     configFile: [
       'base/.prettierrc',
       'base/.prettierignore',
       'base/.eslintignore',
-      'eslint-basic/.eslintrc',
+      'eslint-react/.eslintrc',
     ],
   }
 }

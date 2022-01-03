@@ -1,4 +1,4 @@
-# @befhub/stylelint-config-basic
+# @bfehub/stylelint-config-basic
 
 ## Usage
 

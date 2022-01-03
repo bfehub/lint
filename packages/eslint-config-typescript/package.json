@@ -1,5 +1,5 @@
 {
-  "name": "@befhub/eslint-config-typescript",
+  "name": "@bfehub/eslint-config-typescript",
   "version": "0.0.0",
   "description": "eslint typescript",
   "author": "haiweilian <haiweilian@foxmail.com>",
@@ -15,7 +15,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@befhub/eslint-config-basic": "workspace:*",
+    "@bfehub/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1"
   }

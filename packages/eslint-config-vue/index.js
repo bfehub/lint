@@ -12,7 +12,7 @@ module.exports = {
   extends: [
     // https://eslint.vuejs.org/user-guide/#bundle-configurations
     'plugin:vue/vue3-recommended',
-    '@befhub/eslint-config-typescript',
+    '@bfehub/eslint-config-typescript',
   ],
   rules: {
     // override rules
