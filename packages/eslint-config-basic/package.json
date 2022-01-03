@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/eslint-config-basic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "eslint basic",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",
