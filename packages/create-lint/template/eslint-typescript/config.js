@@ -7,10 +7,10 @@ module.exports = (options) => {
       '@bfehub/eslint-config-typescript',
     ],
     configFile: [
-      'base/.prettierrc',
       'base/.prettierignore',
+      'base/.prettierrc.js',
       'base/.eslintignore',
-      'eslint-typescript/.eslintrc',
+      'eslint-typescript/.eslintrc.js',
     ],
   }
 }
