@@ -3,6 +3,7 @@
 const path = require('path')
 const prompts = require('prompts')
 const fs = require('fs-extra')
+const { blue } = require('kolorist')
 const { installPackage } = require('@antfu/install-pkg')
 
 async function main() {
@@ -34,6 +35,15 @@ async function main() {
         { title: 'basic', value: ['stylelint-basic'] },
       ],
     },
+    {
+      type: 'select',
+      name: 'commit',
+      message: 'Pick a commit preset',
+      choices: [
+        { title: 'none', value: [] },
+        { title: 'basic', value: ['commit-basic'] },
+      ],
+    },
   ])
 
   // 获取默认配置
@@ -53,6 +63,11 @@ async function main() {
     cwd: options.cwd,
   })
 
+  // 安装后执行
+  for (const { afterInstall } of configs) {
+    afterInstall && (await afterInstall())
+  }
+
   // 生成配置文件
   const configFiles = Array.from(
     new Set(configs.map((config) => config.configFile).flat())
@@ -61,10 +76,12 @@ async function main() {
     configFiles.map((configFile) =>
       fs.copyFile(
         path.resolve(tplPath, configFile),
-        path.resolve(options.cwd, configFile.split('/')[1])
+        path.resolve(options.cwd, configFile.slice(configFile.indexOf('/') + 1))
       )
     )
   )
+
+  console.log(blue('✨ created success. ✨'))
 }
 
 main().catch((e) => {
