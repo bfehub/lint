@@ -54,6 +54,16 @@ async function main() {
         { title: 'release-it', value: ['release-release-it'] },
       ],
     },
+    {
+      type: 'multiselect',
+      name: 'files',
+      message: 'Pick files preset',
+      hint: '- Space to select. Return to submit',
+      choices: [
+        { title: '.editorconfig', value: 'file-basic/editorconfig' },
+        { title: '.gitignore', value: 'file-basic/gitignore' },
+      ],
+    },
   ])
 
   // 获取默认配置

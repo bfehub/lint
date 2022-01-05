@@ -1,0 +1,28 @@
+# System
+.DS_Store
+
+# Coverage directory
+coverage
+
+# Build Generate
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules
+bower_components
+jspm_packages
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
