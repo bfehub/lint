@@ -1,5 +1,20 @@
 # @bfehub/eslint-config-react
 
+## 1.0.0
+
+### Major Changes
+
+- feat: add commit preset
+
+  feat: add release preset
+
+  feat: add files preset
+
+### Patch Changes
+
+- Updated dependencies
+  - @bfehub/eslint-config-typescript@1.0.0
+
 ## 0.0.2
 
 ### Patch Changes
