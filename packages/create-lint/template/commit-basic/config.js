@@ -1,6 +1,10 @@
 const { spawnSync } = require('child_process')
 const { setPkg } = require('../../utils/index')
 
+// https://github.com/typicode/husky
+// https://github.com/okonet/lint-staged
+// https://github.com/commitizen/cz-cli
+// https://github.com/conventional-changelog/commitlint
 module.exports = (options) => {
   return {
     pkg: [

@@ -44,6 +44,16 @@ async function main() {
         { title: 'basic', value: ['commit-basic'] },
       ],
     },
+    {
+      type: 'select',
+      name: 'release',
+      message: 'Pick a release preset',
+      choices: [
+        { title: 'none', value: [] },
+        { title: 'changesets', value: ['release-changesets'] },
+        { title: 'release-it', value: ['release-release-it'] },
+      ],
+    },
   ])
 
   // 获取默认配置
