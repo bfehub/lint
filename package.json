@@ -1,6 +1,6 @@
 {
-  "name": "@bfehub/lint",
-  "version": "0.0.0",
+  "name": "@bfehub/root",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "private": true,
