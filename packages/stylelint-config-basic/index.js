@@ -1,5 +1,17 @@
 // https://stylelint.io/user-guide/get-started
 module.exports = {
+  // https://github.com/ota-meshi/postcss-html
+  customSyntax: 'postcss-html',
+  overrides: [
+    {
+      files: ['**/*.scss'],
+      customSyntax: 'postcss-scss',
+    },
+    {
+      files: ['**/*.less'],
+      customSyntax: 'postcss-less',
+    },
+  ],
   extends: [
     // https://github.com/ota-meshi/stylelint-config-html
     'stylelint-config-html',
