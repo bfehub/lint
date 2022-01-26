@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/stylelint-config-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylelint basic",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",

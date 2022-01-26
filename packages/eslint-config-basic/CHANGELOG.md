@@ -1,5 +1,11 @@
 # @bfehub/eslint-config-basic
 
+## 1.0.1
+
+### Patch Changes
+
+- add stylelint rules
+
 ## 1.0.0
 
 ### Major Changes

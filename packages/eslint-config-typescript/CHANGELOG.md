@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-typescript
 
+## 1.0.1
+
+### Patch Changes
+
+- add stylelint rules
+- Updated dependencies
+  - @bfehub/eslint-config-basic@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
