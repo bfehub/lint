@@ -26,4 +26,10 @@ module.exports = {
     // https://github.com/hudochenkov/stylelint-order
     'stylelint-order',
   ],
+  rules: {
+    'no-empty-source': null,
+    'at-rule-no-unknown': null,
+    'value-no-vendor-prefix': null,
+    'selector-class-pattern': null,
+  },
 }

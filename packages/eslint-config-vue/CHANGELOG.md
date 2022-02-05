@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-vue
 
+## 1.0.2
+
+### Patch Changes
+
+- add rules
+- Updated dependencies
+  - @bfehub/eslint-config-typescript@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

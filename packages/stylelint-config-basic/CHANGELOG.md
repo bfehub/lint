@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 1.0.2
+
+### Patch Changes
+
+- add rules
+
 ## 1.0.1
 
 ### Patch Changes

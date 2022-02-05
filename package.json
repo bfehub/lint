@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "commit": "npx git-cz"
   },
   "devDependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",

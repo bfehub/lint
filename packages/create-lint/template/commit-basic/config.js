@@ -26,6 +26,7 @@ module.exports = (options) => {
       await setPkg(options.cwd, {
         scripts: {
           prepare: 'husky install',
+          commit: 'npx git-cz',
         },
       })
 
