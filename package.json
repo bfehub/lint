@@ -7,7 +7,11 @@
   "scripts": {
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "lint:lint-staged": "lint-staged",
+    "lint:eslint": "eslint --fix --cache \"**/*.{js,jsx,ts,tsx,vue}\"",
+    "lint:stylelint": "stylelint --fix --cache \"**/*.{css,scss,less,styl,vue}\"",
+    "lint:prettier": "prettier --write  \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,,md,json,vue}\""
   },
   "devDependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",

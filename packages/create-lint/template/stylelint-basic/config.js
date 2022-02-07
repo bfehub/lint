@@ -1,6 +1,6 @@
 module.exports = (options) => {
   return {
-    pkg: ['stylelint', 'prettier', '@bfehub/stylelint-config-basic'],
+    pkg: ['stylelint', 'prettier', 'postcss', '@bfehub/stylelint-config-basic'],
     configFile: [
       'base/.prettierignore',
       'base/.prettierrc.js',

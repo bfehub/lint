@@ -28,6 +28,7 @@ module.exports = {
   ],
   rules: {
     'no-empty-source': null,
+    'unit-no-unknown': null,
     'at-rule-no-unknown': null,
     'value-no-vendor-prefix': null,
     'selector-class-pattern': null,
