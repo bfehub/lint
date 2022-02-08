@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-react
 
+## 1.0.3
+
+### Patch Changes
+
+- fix stylelint postcss deps
+- Updated dependencies
+  - @bfehub/eslint-config-typescript@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

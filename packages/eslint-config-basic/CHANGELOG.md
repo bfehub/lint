@@ -1,5 +1,11 @@
 # @bfehub/eslint-config-basic
 
+## 1.0.3
+
+### Patch Changes
+
+- fix stylelint postcss deps
+
 ## 1.0.2
 
 ### Patch Changes
