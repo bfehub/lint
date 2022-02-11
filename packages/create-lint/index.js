@@ -62,6 +62,7 @@ async function main() {
       choices: [
         { title: '.editorconfig', value: 'file-basic/editorconfig' },
         { title: '.gitignore', value: 'file-basic/gitignore' },
+        { title: '.npmrc', value: 'file-basic/npmrc' },
       ],
     },
   ])
