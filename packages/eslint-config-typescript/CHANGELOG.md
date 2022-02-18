@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-typescript
 
+## 1.0.4
+
+### Patch Changes
+
+- add jest test
+- Updated dependencies
+  - @bfehub/eslint-config-basic@1.0.4
+
 ## 1.0.3
 
 ### Patch Changes

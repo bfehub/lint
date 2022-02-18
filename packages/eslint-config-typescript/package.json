@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/eslint-config-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint typescript",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",

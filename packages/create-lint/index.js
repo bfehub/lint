@@ -55,6 +55,16 @@ async function main() {
       ],
     },
     {
+      type: 'select',
+      name: 'test',
+      message: 'Pick a test preset',
+      choices: [
+        { title: 'none', value: [] },
+        { title: 'vue-test-utils', value: ['test-jest-vue'] },
+        { title: 'react-testing-library', value: ['test-jest-react'] },
+      ],
+    },
+    {
       type: 'multiselect',
       name: 'files',
       message: 'Pick files preset',

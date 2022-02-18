@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint react",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",
