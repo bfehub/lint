@@ -3,8 +3,9 @@
 const path = require('path')
 const prompts = require('prompts')
 const fs = require('fs-extra')
+const whichPMRuns = require('which-pm-runs')
 const { blue } = require('kolorist')
-const { installPackage } = require('@antfu/install-pkg')
+const { installPackage, detectPackageManager } = require('@antfu/install-pkg')
 
 async function main() {
   const options = {
@@ -68,7 +69,7 @@ async function main() {
       type: 'multiselect',
       name: 'files',
       message: 'Pick files preset',
-      hint: '- Space to select. Return to submit',
+      hint: 'Space to select. Return to submit',
       choices: [
         { title: '.editorconfig', value: 'file-basic/editorconfig' },
         { title: '.gitignore', value: 'file-basic/gitignore' },
@@ -86,12 +87,14 @@ async function main() {
   })
 
   // 安装依赖包
+  const pmName = (await detectPackageManager()) || whichPMRuns()
   const pkgNames = Array.from(
     new Set(configs.map((config) => config.pkg).flat())
   )
   await installPackage(pkgNames, {
     dev: true,
     cwd: options.cwd,
+    packageManager: pmName,
   })
 
   // 安装后执行

@@ -178,7 +178,7 @@ export default {
   transform: {
     '^.+\\.(j|t)sx?$': 'ts-jest',
     '^.+\\.vue$': '@vue/vue3-jest',
-    '.+\\.(css|styl|less|sass|scss|jpg|jpeg|png|svg|gif|eot|otf|webp|ttf|woff|woff2|mp4|mp3)$':
+    '.+\\.(css|styl|less|sass|scss|jpg|jpeg|png|svg|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|avif)$':
       'jest-transform-stub',
   },
 

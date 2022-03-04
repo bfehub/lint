@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 1.0.5
+
+### Patch Changes
+
+- 优化安装方式
+
 ## 1.0.4
 
 ### Patch Changes

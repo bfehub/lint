@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/create-lint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "lint cli",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",
@@ -16,6 +16,7 @@
     "@antfu/install-pkg": "^0.1.0",
     "fs-extra": "^10.0.0",
     "kolorist": "^1.5.1",
-    "prompts": "^2.4.2"
+    "prompts": "^2.4.2",
+    "which-pm-runs": "^1.1.0"
   }
 }

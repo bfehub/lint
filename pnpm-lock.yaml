@@ -38,11 +38,13 @@ importers:
       fs-extra: ^10.0.0
       kolorist: ^1.5.1
       prompts: ^2.4.2
+      which-pm-runs: ^1.1.0
     dependencies:
       '@antfu/install-pkg': 0.1.0
       fs-extra: 10.0.0
       kolorist: 1.5.1
       prompts: 2.4.2
+      which-pm-runs: 1.1.0
 
   packages/eslint-config-basic:
     specifiers:
@@ -4176,6 +4178,11 @@ packages:
   /which-module/2.0.0:
     resolution: {integrity: sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=}
     dev: true
+
+  /which-pm-runs/1.1.0:
+    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==}
+    engines: {node: '>=4'}
+    dev: false
 
   /which-pm/2.0.0:
     resolution: {integrity: sha512-Lhs9Pmyph0p5n5Z3mVnN0yWcbQYUAD7rbQUiMsQxOJ3T57k7RFe35SUwWMf7dsbDZks1uOmw4AecB/JMDj3v/w==}
