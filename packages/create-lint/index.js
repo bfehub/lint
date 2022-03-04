@@ -87,7 +87,7 @@ async function main() {
   })
 
   // 安装依赖包
-  const pmName = (await detectPackageManager()) || whichPMRuns()
+  const pmName = (await detectPackageManager()) || whichPMRuns()?.name
   const pkgNames = Array.from(
     new Set(configs.map((config) => config.pkg).flat())
   )

@@ -1,5 +1,21 @@
 # @bfehub/eslint-config-typescript
 
+## 1.0.7
+
+### Patch Changes
+
+- 修复安装错误
+- Updated dependencies
+  - @bfehub/eslint-config-basic@1.0.7
+
+## 1.0.6
+
+### Patch Changes
+
+- 修复安装错误
+- Updated dependencies
+  - @bfehub/eslint-config-basic@1.0.6
+
 ## 1.0.5
 
 ### Patch Changes
