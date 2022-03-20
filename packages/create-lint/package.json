@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/create-lint",
-  "version": "1.0.7",
+  "version": "1.2.0",
   "description": "lint cli",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",
