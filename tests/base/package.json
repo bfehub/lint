@@ -1,8 +1,7 @@
 {
-  "name": "base",
+  "name": "base-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +12,8 @@
     "@bfehub/eslint-config-basic": "workspace:*",
     "@bfehub/stylelint-config-basic": "workspace:*",
     "eslint": "^8.5.0",
-    "prettier": "^2.5.1",
+    "postcss": "^8.4.0",
+    "prettier": "^2.5.0",
     "stylelint": "^14.2.0"
   }
 }

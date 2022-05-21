@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 1.3.0
+
+### Minor Changes
+
+- update dep
+
 ## 1.0.7
 
 ### Patch Changes
