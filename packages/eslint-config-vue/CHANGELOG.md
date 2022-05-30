@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-vue
 
+## 1.3.1
+
+### Patch Changes
+
+- fix cli lint
+- Updated dependencies
+  - @bfehub/eslint-config-typescript@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

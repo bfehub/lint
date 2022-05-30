@@ -2,16 +2,16 @@
 module.exports = {
   // https://github.com/ota-meshi/postcss-html
   // customSyntax: 'postcss-html',
-  // overrides: [
-  //   {
-  //     files: ['**/*.scss'],
-  //     customSyntax: 'postcss-scss',
-  //   },
-  //   {
-  //     files: ['**/*.less'],
-  //     customSyntax: 'postcss-less',
-  //   },
-  // ],
+  overrides: [
+    {
+      files: ['**/*.scss'],
+      customSyntax: 'postcss-scss',
+    },
+    {
+      files: ['**/*.less'],
+      customSyntax: 'postcss-less',
+    },
+  ],
   extends: [
     // https://github.com/ota-meshi/stylelint-config-html
     'stylelint-config-html',
