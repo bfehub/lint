@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-typescript
 
+## 1.3.2
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @bfehub/eslint-config-basic@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes
