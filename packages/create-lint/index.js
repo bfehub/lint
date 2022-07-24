@@ -61,8 +61,9 @@ async function main() {
       message: 'Pick a test preset',
       choices: [
         { title: 'none', value: [] },
-        { title: 'vue-test-utils', value: ['test-jest-vue'] },
-        { title: 'react-testing-library', value: ['test-jest-react'] },
+        { title: 'vitest-vue', value: ['test-jest-vue'] },
+        { title: 'jest-vue', value: ['test-jest-vue'] },
+        { title: 'jest-react', value: ['test-jest-react'] },
       ],
     },
     {

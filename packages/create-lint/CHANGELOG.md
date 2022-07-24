@@ -1,5 +1,11 @@
 # @bfehub/create-lint
 
+## 1.3.1
+
+### Patch Changes
+
+- add vitest config
+
 ## 1.3.0
 
 ### Minor Changes
