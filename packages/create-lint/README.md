@@ -6,6 +6,8 @@
 
 ```sh
 npm create @bfehub/lint
+# when pnpm workspace
+npm create @bfehub/lint -w
 ```
 
 <img src="https://raw.githubusercontent.com/bfehub/lint/master/docs/play.svg" />

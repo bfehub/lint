@@ -11,10 +11,15 @@
     "lint:lint-staged": "lint-staged",
     "lint:eslint": "eslint --fix --cache \"**/*.{js,jsx,ts,tsx,vue}\"",
     "lint:stylelint": "stylelint --fix --cache \"**/*.{css,scss,less,styl,vue}\"",
-    "lint:prettier": "prettier --write  \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,vue}\""
+    "lint:prettier": "prettier --write  \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,vue}\"",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",
+    "@bfehub/eslint-config-react": "workspace:*",
+    "@bfehub/eslint-config-typescript": "workspace:*",
+    "@bfehub/eslint-config-vue": "workspace:*",
     "@bfehub/stylelint-config-basic": "workspace:*",
     "@changesets/cli": "^2.19.0",
     "@commitlint/cli": "^16.0.1",

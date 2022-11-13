@@ -3,9 +3,8 @@
 const path = require('path')
 const prompts = require('prompts')
 const fs = require('fs-extra')
-const whichPMRuns = require('which-pm-runs')
 const { blue } = require('kolorist')
-const { installPackage, detectPackageManager } = require('@antfu/install-pkg')
+const { installPackage } = require('@antfu/install-pkg')
 
 async function main() {
   const options = {
@@ -88,14 +87,13 @@ async function main() {
   })
 
   // 安装依赖包
-  const pmName = (await detectPackageManager()) || whichPMRuns()?.name
   const pkgNames = Array.from(
     new Set(configs.map((config) => config.pkg).flat())
   )
   await installPackage(pkgNames, {
     dev: true,
     cwd: options.cwd,
-    packageManager: pmName,
+    additionalArgs: process.argv.slice(2),
   })
 
   // 安装后执行
