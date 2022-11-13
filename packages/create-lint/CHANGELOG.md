@@ -1,5 +1,11 @@
 # @bfehub/create-lint
 
+## 1.3.2
+
+### Patch Changes
+
+- 13f6d16: change the configuration file suffix name.
+
 ## 1.3.1
 
 ### Patch Changes
