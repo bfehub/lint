@@ -18,9 +18,9 @@ module.exports = (options) => {
     configFile: [
       'commit-basic/.husky/pre-commit',
       'commit-basic/.husky/commit-msg',
-      'commit-basic/.lintstagedrc.js',
+      'commit-basic/.lintstagedrc.cjs',
       'commit-basic/.czrc',
-      'commit-basic/.commitlintrc.js',
+      'commit-basic/.commitlintrc.cjs',
     ],
     async afterInstall() {
       await setPkg(options.cwd, {

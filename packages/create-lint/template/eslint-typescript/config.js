@@ -8,9 +8,9 @@ module.exports = (options) => {
     ],
     configFile: [
       'base/.prettierignore',
-      'base/.prettierrc.js',
+      'base/.prettierrc.cjs',
       'base/.eslintignore',
-      'eslint-typescript/.eslintrc.js',
+      'eslint-typescript/.eslintrc.cjs',
     ],
   }
 }

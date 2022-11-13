@@ -3,9 +3,9 @@ module.exports = (options) => {
     pkg: ['eslint', 'prettier', 'typescript', '@bfehub/eslint-config-vue'],
     configFile: [
       'base/.prettierignore',
-      'base/.prettierrc.js',
+      'base/.prettierrc.cjs',
       'base/.eslintignore',
-      'eslint-vue/.eslintrc.js',
+      'eslint-vue/.eslintrc.cjs',
     ],
   }
 }
