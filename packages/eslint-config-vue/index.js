@@ -6,11 +6,11 @@ module.exports = {
       parser: 'vue-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',
-      },
-      rules: {
-        'no-undef': 'off',
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
+        sourceType: 'module',
+        ecmaVersion: 'latest',
+        ecmaFeatures: {
+          jsx: true,
+        },
       },
     },
   ],

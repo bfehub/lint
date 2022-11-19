@@ -8,10 +8,11 @@ module.exports = {
   ],
   rules: {
     // override rules
-    'no-useless-constructor': 'off',
-    'no-unused-vars': 'off',
+    'no-undef': 'off',
     'no-redeclare': 'off',
+    'no-unused-vars': 'off',
     'no-use-before-define': 'off',
+    'no-useless-constructor': 'off',
 
     // off rules
     '@typescript-eslint/ban-types': 'off',
