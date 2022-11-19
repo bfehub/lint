@@ -1,10 +1,19 @@
 # @bfehub/eslint-config-vue
 
+## 1.3.3
+
+### Patch Changes
+
+- 222be4a: fix rules
+- Updated dependencies [222be4a]
+  - @bfehub/eslint-config-typescript@1.3.3
+
 ## 1.3.2
 
 ### Patch Changes
 
 -
+
 - Updated dependencies
   - @bfehub/eslint-config-typescript@1.3.2
 
