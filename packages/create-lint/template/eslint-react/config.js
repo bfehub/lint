@@ -1,4 +1,4 @@
-module.exports = (options) => {
+module.exports = () => {
   return {
     pkg: ['eslint', 'prettier', 'typescript', '@bfehub/eslint-config-react'],
     configFile: [

@@ -1,5 +1,6 @@
 {
   "name": "@bfehub/eslint-config-react",
+  "type": "commonjs",
   "version": "1.3.3",
   "description": "eslint react",
   "author": "haiweilian <haiweilian@foxmail.com>",

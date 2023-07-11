@@ -10,12 +10,29 @@ module.exports = {
     // override rules
     'no-undef': 'off',
     'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
     'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        args: 'none',
+        caughtErrors: 'none',
+        ignoreRestSiblings: true,
+        vars: 'all',
+      },
+    ],
     'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      {
+        functions: false,
+        classes: false,
+        variables: true,
+      },
+    ],
     'no-useless-constructor': 'off',
 
     // off rules
-    '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
