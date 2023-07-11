@@ -1,7 +1,7 @@
 {
   "name": "@bfehub/eslint-config-vue",
   "type": "commonjs",
-  "version": "1.3.3",
+  "version": "2.0.0",
   "description": "eslint vue",
   "author": "haiweilian <haiweilian@foxmail.com>",
   "homepage": "https://github.com/bfehub/lint",

@@ -1,5 +1,11 @@
 # @bfehub/create-lint
 
+## 2.0.0
+
+### Major Changes
+
+- c9bc4dc: update prettier v3
+
 ## 1.3.2
 
 ### Patch Changes
