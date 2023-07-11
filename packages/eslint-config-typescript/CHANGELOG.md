@@ -1,5 +1,16 @@
 # @bfehub/eslint-config-typescript
 
+## 2.0.0
+
+### Major Changes
+
+- c9bc4dc: update prettier v3
+
+### Patch Changes
+
+- Updated dependencies [c9bc4dc]
+  - @bfehub/eslint-config-basic@2.0.0
+
 ## 1.3.3
 
 ### Patch Changes

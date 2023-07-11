@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 2.0.0
+
+### Major Changes
+
+- c9bc4dc: update prettier v3
+
 ## 1.3.3
 
 ### Patch Changes
