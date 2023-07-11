@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const path = require('path')
-const prompts = require('prompts')
+const { installPackage } = require('@antfu/install-pkg')
 const fs = require('fs-extra')
 const { blue } = require('kolorist')
-const { installPackage } = require('@antfu/install-pkg')
+const prompts = require('prompts')
 
 async function main() {
   const options = {

@@ -1,4 +1,4 @@
-module.exports = (options) => {
+module.exports = () => {
   return {
     pkg: ['stylelint', 'prettier', 'postcss', '@bfehub/stylelint-config-basic'],
     configFile: [

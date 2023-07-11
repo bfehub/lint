@@ -8,6 +8,11 @@ module.exports = {
     // @bfehub/eslint-config-typescript
     '@bfehub/eslint-config-typescript',
   ],
+  settings: {
+    react: {
+      version: '18.0',
+    },
+  },
   rules: {
     'react/react-in-jsx-scope': 'off',
   },

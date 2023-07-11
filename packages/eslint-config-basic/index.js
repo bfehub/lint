@@ -11,4 +11,16 @@ module.exports = {
     // https://github.com/prettier/eslint-plugin-prettier
     'plugin:prettier/recommended',
   ],
+  rules: {
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
+    'import/order': [
+      'error',
+      {
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
+  },
 }
