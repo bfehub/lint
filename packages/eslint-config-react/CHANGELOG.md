@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-react
 
+## 2.0.1
+
+### Patch Changes
+
+- efe2d17: upgrade dependencies
+- Updated dependencies [efe2d17]
+  - @bfehub/eslint-config-typescript@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
