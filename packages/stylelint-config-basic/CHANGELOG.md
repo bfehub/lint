@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 2.0.2
+
+### Patch Changes
+
+- 149c933: config order group
+
 ## 2.0.1
 
 ### Patch Changes

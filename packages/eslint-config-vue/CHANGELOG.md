@@ -1,5 +1,13 @@
 # @bfehub/eslint-config-vue
 
+## 2.0.2
+
+### Patch Changes
+
+- 149c933: config order group
+- Updated dependencies [149c933]
+  - @bfehub/eslint-config-typescript@2.0.2
+
 ## 2.0.1
 
 ### Patch Changes
