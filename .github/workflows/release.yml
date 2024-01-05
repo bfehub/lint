@@ -12,19 +12,19 @@ jobs:
     steps:
       # https://github.com/actions/checkout
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # https://github.com/actions/setup-node
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       # https://github.com/pnpm/action-setup
       - name: Setup Pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7.x
+          version: 8.x
 
       # https://pnpm.io/zh/cli/install#--frozen-lockfile
       - name: Install Dependencies
