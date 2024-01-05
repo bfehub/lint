@@ -1,5 +1,11 @@
 # @bfehub/stylelint-config-basic
 
+## 2.0.1
+
+### Patch Changes
+
+- efe2d17: upgrade dependencies
+
 ## 2.0.0
 
 ### Major Changes
