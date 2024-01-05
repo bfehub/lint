@@ -32,5 +32,11 @@ module.exports = {
     'at-rule-no-unknown': null,
     'value-no-vendor-prefix': null,
     'selector-class-pattern': null,
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: [/deep/],
+      },
+    ],
   },
 }
