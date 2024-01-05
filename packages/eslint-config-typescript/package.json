@@ -16,12 +16,12 @@
   },
   "dependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0"
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0"
   },
   "devDependencies": {
-    "eslint": "^8.44.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   }
 }
