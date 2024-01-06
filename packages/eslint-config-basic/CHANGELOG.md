@@ -1,5 +1,11 @@
 # @bfehub/eslint-config-basic
 
+## 2.1.0
+
+### Minor Changes
+
+- add vitest vue/react
+
 ## 2.0.2
 
 ### Patch Changes

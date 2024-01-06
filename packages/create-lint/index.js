@@ -60,7 +60,8 @@ async function main() {
       message: 'Pick a test preset',
       choices: [
         { title: 'none', value: [] },
-        { title: 'vitest-vue', value: ['test-jest-vue'] },
+        { title: 'vitest-vue', value: ['test-vitest-vue'] },
+        { title: 'vitest-react', value: ['test-vitest-react'] },
         { title: 'jest-vue', value: ['test-jest-vue'] },
         { title: 'jest-react', value: ['test-jest-react'] },
       ],
@@ -85,6 +86,7 @@ async function main() {
     const config = require(path.resolve(tplPath, configPath, 'config.js'))
     return config(options)
   })
+  if (!configs.length) return
 
   // 安装依赖包
   const pkgNames = Array.from(

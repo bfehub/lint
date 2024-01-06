@@ -8,7 +8,9 @@ module.exports = (options) => {
     pkg: [
       'jest',
       'ts-jest',
+      'ts-node',
       'jest-transform-stub',
+      'jest-environment-jsdom',
       '@types/jest',
       '@testing-library/react',
       '@testing-library/jest-dom',

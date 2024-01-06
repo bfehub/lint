@@ -1,5 +1,16 @@
 # @bfehub/eslint-config-typescript
 
+## 2.1.0
+
+### Minor Changes
+
+- add vitest vue/react
+
+### Patch Changes
+
+- Updated dependencies
+  - @bfehub/eslint-config-basic@2.1.0
+
 ## 2.0.2
 
 ### Patch Changes

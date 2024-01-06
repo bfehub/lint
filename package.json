@@ -11,7 +11,7 @@
     "lint:lint-staged": "lint-staged",
     "lint:eslint": "eslint --fix --cache \"**/*.{js,jsx,ts,tsx,vue}\"",
     "lint:stylelint": "stylelint --fix --cache \"**/*.{css,scss,less,styl,vue}\"",
-    "lint:prettier": "prettier --write  \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,vue}\"",
+    "lint:prettier": "prettier --write \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,vue}\"",
     "version-packages": "changeset version",
     "release": "changeset publish"
   },
