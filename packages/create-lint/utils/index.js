@@ -1,9 +1,14 @@
-const path = require('path')
-const fs = require('fs-extra')
+import path from 'node:path'
+import fse from 'fs-extra'
+
+const getPkg = async (cwd) => {
+  const pkgPath = path.resolve(cwd, 'package.json')
+  return await fse.readJSON(pkgPath)
+}
 
 const setPkg = async (cwd, pkgObj) => {
   const pkgPath = path.resolve(cwd, 'package.json')
-  const pkgJson = await fs.readJSON(pkgPath)
+  const pkgJson = await fse.readJSON(pkgPath)
 
   for (const key in pkgObj) {
     if (pkgJson[key] && typeof pkgJson[key] === 'object') {
@@ -13,9 +18,12 @@ const setPkg = async (cwd, pkgObj) => {
     }
   }
 
-  await fs.writeJSON(pkgPath, pkgJson, { spaces: 2 })
+  await fse.writeJSON(pkgPath, pkgJson, { spaces: 2 })
 }
 
-module.exports = {
-  setPkg,
+const isModule = async (cwd) => {
+  const pkg = await getPkg(cwd)
+  return pkg.type === 'module'
 }
+
+export { getPkg, setPkg, isModule }

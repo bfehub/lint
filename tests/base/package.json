@@ -11,9 +11,9 @@
   "devDependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",
     "@bfehub/stylelint-config-basic": "workspace:*",
-    "eslint": "^8.56.0",
-    "postcss": "^8.4.33",
-    "prettier": "^3.1.1",
-    "stylelint": "^16.1.0"
+    "eslint": "^9.7.0",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.7.0"
   }
 }

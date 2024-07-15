@@ -1,11 +1,19 @@
-const { spawnSync } = require('child_process')
+import { spawnSync } from 'node:child_process'
+import { setPkg } from '../../utils/index.js'
 
 // https://github.com/changesets/changesets
-module.exports = (options) => {
+export default (options) => {
   return {
     pkg: ['@changesets/cli'],
-    configFile: [],
+    file: [],
     async afterInstall() {
+      await setPkg(options.cwd, {
+        scripts: {
+          version: 'changeset version',
+          publish: 'changeset publish',
+        },
+      })
+
       spawnSync('npx', ['changeset', 'init'], {
         cwd: options.cwd,
       })

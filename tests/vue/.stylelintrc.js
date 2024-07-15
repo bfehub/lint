@@ -1,4 +1,4 @@
-module.exports = {
-  root: true,
+/** @type {import('stylelint').Config} */
+export default {
   extends: '@bfehub/stylelint-config-basic',
 }

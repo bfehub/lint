@@ -1,5 +1,6 @@
 {
   "name": "@bfehub/root",
+  "type": "module",
   "version": "1.0.0",
   "license": "MIT",
   "author": "haiweilian <haiweilian@foxmail.com>",
@@ -7,13 +8,13 @@
   "scripts": {
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
-    "commit": "npx git-cz",
+    "commit": "cz",
     "lint:lint-staged": "lint-staged",
     "lint:eslint": "eslint --fix --cache \"**/*.{js,jsx,ts,tsx,vue}\"",
     "lint:stylelint": "stylelint --fix --cache \"**/*.{css,scss,less,styl,vue}\"",
     "lint:prettier": "prettier --write \"**/*.{css,scss,less,styl,js,jsx,ts,tsx,vue}\"",
-    "version-packages": "changeset version",
-    "release": "changeset publish"
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "devDependencies": {
     "@bfehub/eslint-config-basic": "workspace:*",
@@ -21,17 +22,17 @@
     "@bfehub/eslint-config-typescript": "workspace:*",
     "@bfehub/eslint-config-vue": "workspace:*",
     "@bfehub/stylelint-config-basic": "workspace:*",
-    "@changesets/cli": "^2.27.1",
-    "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4",
+    "@changesets/cli": "^2.27.7",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cz-commitlint": "^19.2.0",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.56.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "postcss": "^8.4.33",
-    "prettier": "^3.1.1",
-    "stylelint": "^16.1.0",
-    "typescript": "^5.3.3"
+    "eslint": "^9.7.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.7.0",
+    "typescript": "^5.5.3"
   }
 }

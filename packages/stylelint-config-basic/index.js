@@ -1,5 +1,6 @@
 // https://stylelint.io/user-guide/get-started
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
   overrides: [
     {
       files: ['**/*.scss'],

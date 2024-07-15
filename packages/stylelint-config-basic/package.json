@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/stylelint-config-basic",
-  "type": "commonjs",
+  "type": "module",
   "version": "2.1.0",
   "description": "stylelint basic",
   "author": "haiweilian <haiweilian@foxmail.com>",
@@ -16,18 +16,18 @@
     "stylelint": ">=15.0.0"
   },
   "dependencies": {
-    "postcss-html": "^1.5.0",
+    "postcss-html": "^1.7.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^4.4.0",
+    "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "postcss": "^8.4.33",
-    "prettier": "^3.1.1",
-    "stylelint": "^16.1.0"
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.7.0"
   }
 }

@@ -1,11 +1,10 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: ['eslint', 'prettier', 'typescript', '@bfehub/eslint-config-vue'],
-    configFile: [
+    file: [
       'base/.prettierignore',
-      'base/.prettierrc.cjs',
-      'base/.eslintignore',
-      'eslint-vue/.eslintrc.cjs',
+      'base/.prettierrc.js',
+      'eslint-vue/eslint.config.js',
     ],
   }
 }

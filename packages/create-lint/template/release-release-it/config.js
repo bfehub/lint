@@ -1,7 +1,16 @@
+import { setPkg } from '../../utils/index.js'
+
 // https://github.com/release-it/release-it
-module.exports = () => {
+export default (options) => {
   return {
     pkg: ['release-it', '@release-it/conventional-changelog'],
-    configFile: ['release-release-it/.release-it.json'],
+    file: ['release-release-it/.release-it.json'],
+    async afterInstall() {
+      await setPkg(options.cwd, {
+        scripts: {
+          release: 'release-it',
+        },
+      })
+    },
   }
 }

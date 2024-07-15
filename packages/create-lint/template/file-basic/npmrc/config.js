@@ -1,6 +1,6 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: [],
-    configFile: ['file-basic/.npmrc'],
+    file: ['file-basic/.npmrc'],
   }
 }
