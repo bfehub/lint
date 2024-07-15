@@ -8,11 +8,11 @@
 npm install -D eslint prettier typescript @bfehub/eslint-config-react
 ```
 
-添加 `.eslintrc.js` 配置文件。
+添加 `eslint.config.js` / `eslint.config.mjs` 配置文件。
 
 ```js
-module.exports = {
-  root: true,
-  extends: '@bfehub/eslint-config-react',
-}
+import react from '@bfehub/eslint-config-react'
+
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default react
 ```

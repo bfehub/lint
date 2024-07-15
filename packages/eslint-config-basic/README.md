@@ -8,11 +8,11 @@
 npm install -D eslint prettier @bfehub/eslint-config-basic
 ```
 
-添加 `.eslintrc.js` 配置文件。
+添加 `eslint.config.js` / `eslint.config.mjs` 配置文件。
 
 ```js
-module.exports = {
-  root: true,
-  extends: '@bfehub/eslint-config-basic',
-}
+import basic from '@bfehub/eslint-config-basic'
+
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default basic
 ```

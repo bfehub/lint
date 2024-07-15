@@ -8,11 +8,11 @@
 npm install -D eslint prettier typescript @bfehub/eslint-config-typescript
 ```
 
-添加 `.eslintrc.js` 配置文件。
+添加 `eslint.config.js` / `eslint.config.mjs` 配置文件。
 
 ```js
-module.exports = {
-  root: true,
-  extends: '@bfehub/eslint-config-typescript',
-}
+import typescript from '@bfehub/eslint-config-typescript'
+
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default typescript
 ```

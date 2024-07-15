@@ -8,11 +8,11 @@
 npm install -D stylelint prettier @bfehub/stylelint-config-basic
 ```
 
-添加 `.stylelintrc.js` 配置文件。
+添加 `.stylelintrc.js` / `.stylelintrc.mjs` 配置文件。
 
 ```js
-module.exports = {
-  root: true,
+/** @type {import('stylelint').Config} */
+export default {
   extends: '@bfehub/stylelint-config-basic',
 }
 ```
