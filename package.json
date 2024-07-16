@@ -6,7 +6,7 @@
   "author": "haiweilian <haiweilian@foxmail.com>",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "preinstall": "npx only-allow pnpm",
     "commit": "cz",
     "lint:lint-staged": "lint-staged",

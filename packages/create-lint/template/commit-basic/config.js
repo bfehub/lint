@@ -25,7 +25,7 @@ export default (options) => {
     async afterInstall() {
       await setPkg(options.cwd, {
         scripts: {
-          prepare: 'husky install',
+          prepare: 'husky',
           commit: 'cz',
         },
       })

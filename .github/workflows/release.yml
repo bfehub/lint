@@ -37,6 +37,7 @@ jobs:
           version: pnpm run version
           publish: pnpm run publish
           commit: 'chore: version packages'
+          createGithubReleases: false
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

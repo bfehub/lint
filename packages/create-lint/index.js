@@ -29,6 +29,7 @@ async function main() {
         { title: 'typescript', value: ['eslint-typescript'] },
         { title: 'vue', value: ['eslint-vue'] },
         { title: 'react', value: ['eslint-react'] },
+        { title: 'antfu-config', value: ['eslint-antfu'] },
       ],
     },
     {
