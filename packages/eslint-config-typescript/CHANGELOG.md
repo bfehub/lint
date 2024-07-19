@@ -1,5 +1,18 @@
 # @bfehub/eslint-config-typescript
 
+## 3.0.0
+
+### Major Changes
+
+- 7970f7b: - Migration of pure ESM
+
+  - Migration of ESLint Flat Config
+
+### Patch Changes
+
+- Updated dependencies [7970f7b]
+  - @bfehub/eslint-config-basic@3.0.0
+
 ## 2.1.0
 
 ### Minor Changes
