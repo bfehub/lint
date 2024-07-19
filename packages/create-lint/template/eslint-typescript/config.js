@@ -1,4 +1,4 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: [
       'eslint',
@@ -6,11 +6,10 @@ module.exports = () => {
       'typescript',
       '@bfehub/eslint-config-typescript',
     ],
-    configFile: [
+    file: [
       'base/.prettierignore',
-      'base/.prettierrc.cjs',
-      'base/.eslintignore',
-      'eslint-typescript/.eslintrc.cjs',
+      'base/.prettierrc.js',
+      'eslint-typescript/eslint.config.js',
     ],
   }
 }

@@ -1,6 +1,6 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: [],
-    configFile: ['file-basic/.gitignore'],
+    file: ['file-basic/.gitignore'],
   }
 }

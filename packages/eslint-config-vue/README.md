@@ -8,11 +8,11 @@
 npm install -D eslint prettier typescript @bfehub/eslint-config-vue
 ```
 
-添加 `.eslintrc.js` 配置文件。
+添加 `eslint.config.js` / `eslint.config.mjs` 配置文件。
 
 ```js
-module.exports = {
-  root: true,
-  extends: '@bfehub/eslint-config-vue',
-}
+import vue from '@bfehub/eslint-config-vue'
+
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default vue
 ```

@@ -1,16 +1,21 @@
 #!/usr/bin/env node
 
-const path = require('path')
-const { installPackage } = require('@antfu/install-pkg')
-const fs = require('fs-extra')
-const { blue } = require('kolorist')
-const prompts = require('prompts')
+import path from 'node:path'
+import { installPackage } from '@antfu/install-pkg'
+import fse from 'fs-extra'
+import { blue } from 'kolorist'
+import prompts from 'prompts'
+import { isModule } from './utils/index.js'
+
+const __dirname = new URL('.', import.meta.url).pathname
 
 async function main() {
   const options = {
     cwd: process.cwd(),
     result: {},
+    module: false,
   }
+  options.module = await isModule(options.cwd)
 
   // 获取用户交互配置
   options.result = await prompts([
@@ -24,6 +29,7 @@ async function main() {
         { title: 'typescript', value: ['eslint-typescript'] },
         { title: 'vue', value: ['eslint-vue'] },
         { title: 'react', value: ['eslint-react'] },
+        { title: 'antfu-config', value: ['eslint-antfu'] },
       ],
     },
     {
@@ -62,8 +68,6 @@ async function main() {
         { title: 'none', value: [] },
         { title: 'vitest-vue', value: ['test-vitest-vue'] },
         { title: 'vitest-react', value: ['test-vitest-react'] },
-        { title: 'jest-vue', value: ['test-jest-vue'] },
-        { title: 'jest-react', value: ['test-jest-react'] },
       ],
     },
     {
@@ -79,14 +83,14 @@ async function main() {
     },
   ])
 
-  // 获取默认配置
+  // 获取配置文件信息
   const tplPath = path.resolve(__dirname, 'template')
   const results = Object.values(options.result).flat()
-  const configs = results.map((configPath) => {
-    const config = require(path.resolve(tplPath, configPath, 'config.js'))
-    return config(options)
-  })
-  if (!configs.length) return
+  const configs = []
+  for (const file of results) {
+    const config = await import(path.resolve(tplPath, file, 'config.js'))
+    configs.push(config.default(options))
+  }
 
   // 安装依赖包
   const pkgNames = Array.from(
@@ -105,15 +109,21 @@ async function main() {
 
   // 生成配置文件
   const configFiles = Array.from(
-    new Set(configs.map((config) => config.configFile).flat())
+    new Set(configs.map((config) => config.file).flat())
   )
   await Promise.all(
-    configFiles.map((configFile) =>
-      fs.copyFile(
+    configFiles.map((configFile) => {
+      fse.copyFile(
         path.resolve(tplPath, configFile),
-        path.resolve(options.cwd, configFile.slice(configFile.indexOf('/') + 1))
+        path.resolve(
+          options.cwd,
+          (options.module
+            ? configFile
+            : configFile.replace(/\.js$/, '.mjs')
+          ).slice(configFile.indexOf('/') + 1)
+        )
       )
-    )
+    })
   )
 
   console.log(blue('✨ created success. ✨'))

@@ -1,11 +1,11 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: ['stylelint', 'prettier', 'postcss', '@bfehub/stylelint-config-basic'],
-    configFile: [
+    file: [
       'base/.prettierignore',
-      'base/.prettierrc.cjs',
-      'base/.stylelintignore',
-      'stylelint-basic/.stylelintrc.cjs',
+      'base/.prettierrc.js',
+      'stylelint-basic/.stylelintignore',
+      'stylelint-basic/.stylelintrc.js',
     ],
   }
 }

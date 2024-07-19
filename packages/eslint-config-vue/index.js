@@ -1,9 +1,27 @@
+import typescript from '@bfehub/eslint-config-typescript'
+import configPrettier from 'eslint-config-prettier'
+import pluginVue from 'eslint-plugin-vue'
+
 // https://eslint.vuejs.org/user-guide
-module.exports = {
-  overrides: [
-    {
-      files: ['*.vue'],
-      parser: 'vue-eslint-parser',
+/** @type {import('eslint').Linter.FlatConfig[]} */
+export default [
+  // @bfehub/eslint-config-typescript
+  ...typescript,
+
+  // https://eslint.vuejs.org/user-guide/#bundle-configurations
+  ...pluginVue.configs['flat/recommended'],
+  {
+    rules: {
+      'vue/max-attributes-per-line': 'off',
+      'vue/no-v-html': 'off',
+      'vue/require-prop-types': 'off',
+      'vue/require-default-prop': 'off',
+      'vue/multi-word-component-names': 'off',
+    },
+  },
+  {
+    files: ['**/*.vue'],
+    languageOptions: {
       parserOptions: {
         parser: '@typescript-eslint/parser',
         sourceType: 'module',
@@ -13,19 +31,9 @@ module.exports = {
         },
       },
     },
-  ],
-  extends: [
-    // https://eslint.vuejs.org/user-guide/#bundle-configurations
-    'plugin:vue/vue3-recommended',
-    // @bfehub/eslint-config-typescript
-    '@bfehub/eslint-config-typescript',
-  ],
-  rules: {
-    // off rules
-    'vue/max-attributes-per-line': 'off',
-    'vue/no-v-html': 'off',
-    'vue/require-prop-types': 'off',
-    'vue/require-default-prop': 'off',
-    'vue/multi-word-component-names': 'off',
   },
-}
+
+  // https://github.com/prettier/eslint-config-prettier
+  // Turns off all rules that are unnecessary or might conflict with Prettier.
+  configPrettier,
+]

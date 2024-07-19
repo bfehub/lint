@@ -1,5 +1,6 @@
 {
   "name": "vue-demo",
+  "type": "module",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,18 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.5"
+    "vue": "^3.4.31"
   },
   "devDependencies": {
     "@bfehub/eslint-config-vue": "workspace:*",
     "@bfehub/stylelint-config-basic": "workspace:*",
-    "@vitejs/plugin-vue": "^5.0.2",
-    "eslint": "^8.56.0",
-    "postcss": "^8.4.33",
-    "prettier": "^3.1.1",
-    "stylelint": "^16.1.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.10",
-    "vue-tsc": "^1.8.27"
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^9.7.0",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.7.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vue-tsc": "^2.0.26"
   }
 }

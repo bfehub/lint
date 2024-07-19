@@ -5,13 +5,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <!-- ❌ -->
-  <!-- <HelloWorld
-    msg="Hello Vue 3 + TypeScript + Vite"
-  /> -->
+  <!-- <div v-html="'error'">has child</div> -->
 
-  <!-- ✅ -->
+  <!-- ❌ -->
+  <!-- <div v-for="i in 10" v-if="i > 5" :key="i"></div> -->
+
+  <!-- ❌ -->
+  <!-- <RouterLink tag="div"></RouterLink> -->
+
+  <img alt="Vue logo" src="./assets/logo.png" />
+
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 

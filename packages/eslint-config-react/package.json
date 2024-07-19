@@ -1,6 +1,6 @@
 {
   "name": "@bfehub/eslint-config-react",
-  "type": "commonjs",
+  "type": "module",
   "version": "2.1.0",
   "description": "eslint react",
   "author": "haiweilian <haiweilian@foxmail.com>",
@@ -11,16 +11,17 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0",
+    "eslint": ">=9.0.0",
     "prettier": ">=3.0.0"
   },
   "dependencies": {
     "@bfehub/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "5.1.0-rc-01172397-20240716"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "prettier": "^3.1.1"
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3"
   }
 }

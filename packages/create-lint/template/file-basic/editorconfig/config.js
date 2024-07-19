@@ -1,6 +1,6 @@
-module.exports = () => {
+export default () => {
   return {
     pkg: [],
-    configFile: ['file-basic/.editorconfig'],
+    file: ['file-basic/.editorconfig'],
   }
 }

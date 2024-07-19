@@ -1,8 +1,8 @@
-const { setPkg } = require('../../utils/index')
+import { setPkg } from '../../utils/index.js'
 
 // https://github.com/vitest-dev/vitest
 // https://github.com/vuejs/test-utils
-module.exports = (options) => {
+export default (options) => {
   return {
     pkg: [
       'vitest',
@@ -12,7 +12,7 @@ module.exports = (options) => {
       '@vue/test-utils',
       'happy-dom',
     ],
-    configFile: ['test-vitest-vue/vitest.config.ts'],
+    file: ['test-vitest-vue/vitest.config.ts'],
     async afterInstall() {
       await setPkg(options.cwd, {
         scripts: {
