@@ -13,6 +13,6 @@ npm install -D eslint prettier @bfehub/eslint-config-basic
 ```js
 import basic from '@bfehub/eslint-config-basic'
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default basic
 ```

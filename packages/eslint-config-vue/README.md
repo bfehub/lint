@@ -13,6 +13,6 @@ npm install -D eslint prettier typescript @bfehub/eslint-config-vue
 ```js
 import vue from '@bfehub/eslint-config-vue'
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default vue
 ```

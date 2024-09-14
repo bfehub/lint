@@ -3,7 +3,7 @@ import configPrettier from 'eslint-config-prettier'
 import tseslint from 'typescript-eslint'
 
 // https://typescript-eslint.io/docs/linting
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   // @bfehub/eslint-config-basic
   ...basic,

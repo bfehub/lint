@@ -6,7 +6,7 @@ import pluginPromise from 'eslint-plugin-promise'
 import globals from 'globals'
 
 // https://eslint.org/docs/user-guide/getting-started
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   // https://eslint.org/docs/latest/use/configure/language-options
   {

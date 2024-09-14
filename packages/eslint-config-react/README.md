@@ -13,6 +13,6 @@ npm install -D eslint prettier typescript @bfehub/eslint-config-react
 ```js
 import react from '@bfehub/eslint-config-react'
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default react
 ```

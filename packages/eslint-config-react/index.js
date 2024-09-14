@@ -5,7 +5,7 @@ import pluginReactRecommended from 'eslint-plugin-react/configs/recommended.js'
 import pluginReactHooks from 'eslint-plugin-react-hooks'
 
 // https://github.com/facebook/react
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   // @bfehub/eslint-config-typescript
   ...typescript,

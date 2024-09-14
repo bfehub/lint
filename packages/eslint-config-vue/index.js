@@ -3,7 +3,7 @@ import configPrettier from 'eslint-config-prettier'
 import pluginVue from 'eslint-plugin-vue'
 
 // https://eslint.vuejs.org/user-guide
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   // @bfehub/eslint-config-typescript
   ...typescript,

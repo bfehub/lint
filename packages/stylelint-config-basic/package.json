@@ -20,14 +20,14 @@
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.9",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^5.0.1",
-    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-recess-order": "^5.1.0",
+    "stylelint-config-standard": "^36.0.1",
     "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "^5.0.0"
+    "stylelint-prettier": "^5.0.2"
   },
   "devDependencies": {
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.45",
     "prettier": "^3.3.3",
-    "stylelint": "^16.7.0"
+    "stylelint": "^16.9.0"
   }
 }
