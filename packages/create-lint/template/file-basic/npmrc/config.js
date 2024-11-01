@@ -1,6 +1,6 @@
 export default () => {
   return {
     pkg: [],
-    file: ['file-basic/.npmrc'],
+    file: ['file-basic/npmrc/.npmrc'],
   }
 }

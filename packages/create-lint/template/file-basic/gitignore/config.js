@@ -1,6 +1,6 @@
 export default () => {
   return {
     pkg: [],
-    file: ['file-basic/.gitignore'],
+    file: ['file-basic/gitignore/.gitignore'],
   }
 }

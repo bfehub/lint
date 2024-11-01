@@ -120,7 +120,7 @@ async function main() {
           (options.module
             ? configFile
             : configFile.replace(/\.js$/, '.mjs')
-          ).slice(configFile.indexOf('/') + 1)
+          ).slice(configFile.lastIndexOf('/') + 1)
         )
       )
     })
