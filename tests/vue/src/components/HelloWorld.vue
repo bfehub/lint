@@ -47,4 +47,16 @@ code {
   background-color: #eee;
   border-radius: 4px;
 }
+
+:deep(.text) {
+  color: red;
+}
+
+:global(.text) {
+  color: red;
+}
+
+:slotted(.text) {
+  color: red;
+}
 </style>

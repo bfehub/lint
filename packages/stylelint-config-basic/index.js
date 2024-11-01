@@ -40,7 +40,7 @@ export default {
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: [/deep/],
+        ignorePseudoClasses: ['deep', 'global', 'slotted'],
       },
     ],
   },
