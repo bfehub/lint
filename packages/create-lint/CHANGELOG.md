@@ -1,5 +1,11 @@
 # @bfehub/create-lint
 
+## 3.1.0
+
+### Minor Changes
+
+- fdef8aa: updated dependencies
+
 ## 3.0.0
 
 ### Major Changes

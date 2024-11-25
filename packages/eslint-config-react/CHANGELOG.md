@@ -1,5 +1,16 @@
 # @bfehub/eslint-config-react
 
+## 3.1.0
+
+### Minor Changes
+
+- fdef8aa: updated dependencies
+
+### Patch Changes
+
+- Updated dependencies [fdef8aa]
+  - @bfehub/eslint-config-typescript@3.1.0
+
 ## 3.0.0
 
 ### Major Changes
